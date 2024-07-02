@@ -1,0 +1,10 @@
+package com.blogs.service;
+
+import com.blogs.entities.Products;
+
+public interface ProductService {
+
+	Products getAllProducts();
+	
+	
+}

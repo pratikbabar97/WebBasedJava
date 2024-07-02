@@ -1,0 +1,11 @@
+package com.reserve.entities;
+
+import javax.persistence.Entity;
+
+import org.hibernate.annotations.Table;
+
+@Entity
+@javax.persistence.Table
+public class Reservation {
+
+}

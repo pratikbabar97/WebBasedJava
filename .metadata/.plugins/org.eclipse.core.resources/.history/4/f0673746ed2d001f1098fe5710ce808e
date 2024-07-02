@@ -1,0 +1,6 @@
+package com.recipe.exceptions;
+
+public class ResourceNotFoundException extends RuntimeException {
+	
+
+}

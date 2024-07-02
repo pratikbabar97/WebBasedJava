@@ -1,0 +1,8 @@
+package com.reserve.service;
+
+import com.reserve.entities.Room;
+
+public interface RoomService {
+     Room postRoomDetails(Room room);
+
+}

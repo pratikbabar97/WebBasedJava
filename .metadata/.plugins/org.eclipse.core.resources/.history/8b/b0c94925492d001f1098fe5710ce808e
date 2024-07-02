@@ -1,0 +1,5 @@
+package com.reserve.service;
+
+public class ReservationImpl implements Reservation {
+
+}

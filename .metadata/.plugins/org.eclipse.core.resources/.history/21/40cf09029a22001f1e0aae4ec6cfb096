@@ -1,0 +1,10 @@
+package com.app.dao;
+
+import java.util.List;
+
+import com.app.entities.Candidates;
+
+public interface CandidateDao {
+	List<Candidates>getAllCandidates() thows SQLException;
+
+}

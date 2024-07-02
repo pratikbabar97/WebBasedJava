@@ -1,0 +1,9 @@
+package com.reserve.entities;
+
+public class BaseEntity {
+
+	public BaseEntity() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

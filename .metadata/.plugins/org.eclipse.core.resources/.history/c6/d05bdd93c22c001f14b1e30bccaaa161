@@ -1,0 +1,13 @@
+package com.reserve.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+@Entity
+@Table(name="Room")
+public class Room {
+
+	public Room() {
+		
+	}
+
+}

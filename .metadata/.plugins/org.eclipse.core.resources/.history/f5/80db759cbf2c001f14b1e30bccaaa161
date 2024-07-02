@@ -1,0 +1,11 @@
+package com.reserve.entities;
+
+public class BaseEntity {
+
+	public BaseEntity() {
+		private Long id;
+		
+		
+	}
+
+}

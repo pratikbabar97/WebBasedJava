@@ -1,0 +1,50 @@
+package com.job.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import com.job.entities.JobPosting;
+import com.job.service.jobPostingService;
+
+import io.swagger.v3.oas.annotations.Operation;
+
+@RestControllerAdvice
+@RequestMapping("/jobPostings")
+public class JobPostingController {
+	@Autowired
+	private jobPostingService jobpostingService;
+
+	@GetMapping
+	@Operation(description = "getting all posting")
+	public ResponseEntity<?> getAllJobPosting() {
+		return ResponseEntity.ok(jobpostingService.getAllPostings());
+	}
+
+	@PostMapping
+	@Operation(description = "posting new job")
+	public ResponseEntity<?> postingNewJob(@RequestBody JobPosting jobposting) {
+		return null;
+
+	}
+	@PutMapping(" {/jobId}")
+	@Operation(description = "updating current job posting")
+	public ResponseEntity<?>  updatingJob(@PathVariable Long id, @RequestBody JobPosting jobposting){
+		return null;
+	}
+	
+	@DeleteMapping("{/jobId}")
+	@Operation(description = "deleting job posting")
+	public ResponseEntity<?> deletingJobPosting(@PathVariable Long id){
+		return null;
+	}
+	
+
+}

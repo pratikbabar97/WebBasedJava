@@ -1,0 +1,9 @@
+package com.reserve.entities;
+
+public class Room {
+
+	public Room() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

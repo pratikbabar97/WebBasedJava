@@ -1,0 +1,54 @@
+package com.job.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.job.dtos.ApiResponse;
+import com.job.entities.JobPosting;
+import com.job.exceptionhandling.ResourceNotFoundException;
+import com.job.repository.jobRepository;
+
+@Service
+@Transactional
+public class jobPostingServiceImpl implements jobPostingService {
+	@Autowired
+	private jobRepository jobRepository;
+
+	@Override
+	public List<JobPosting> getAllPostings() {
+
+		return jobRepository.findAll();
+	}
+
+	@Override
+	public JobPosting postingNewjob(JobPosting jobposting) {		
+
+		return jobRepository.save(jobposting);
+	}
+
+	@Override
+	public ApiResponse updatejob(Long id, JobPosting jobposting) {
+		String msg="updation failed";
+		if(jobRepository.existsById(id)) {
+			JobPosting = jobRepository.findById(id);
+			jobRepository.save(jobposting);
+			msg="updation successfull";
+		}else {
+			new ResourceNotFoundException("invalid id");
+		}
+		return new ApiResponse(msg);
+	}
+
+	@Override
+	public ApiResponse deletingJob(Long id) {
+		// String msg="deletion failed";
+		JobPosting job = jobRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("invalid id"));
+		jobRepository.delete(job);
+
+		return new ApiResponse("entry deleted successfully");
+	}
+
+}

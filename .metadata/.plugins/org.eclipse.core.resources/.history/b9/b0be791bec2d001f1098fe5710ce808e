@@ -1,0 +1,5 @@
+package com.recipe.entities;
+
+public enum DifficultyLevel {
+
+}

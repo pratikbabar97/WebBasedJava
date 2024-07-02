@@ -1,0 +1,9 @@
+package com.reserve.service;
+
+import com.reserve.entities.Reservation;
+
+public interface ReservationService {
+
+	Reservation createReservation(Reservation reserve);
+
+}

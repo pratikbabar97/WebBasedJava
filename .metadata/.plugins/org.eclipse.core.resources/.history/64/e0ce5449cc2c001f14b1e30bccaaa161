@@ -1,0 +1,9 @@
+package com.reserve.service;
+
+public class RoomServiceImpl implements RoomService {
+
+	public RoomServiceImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

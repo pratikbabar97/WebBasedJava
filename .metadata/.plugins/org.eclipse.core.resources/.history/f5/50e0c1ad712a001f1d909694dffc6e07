@@ -1,0 +1,8 @@
+package com.blogs.service;
+
+public interface ProductService {
+
+	Object getAllProducts();
+	
+	
+}

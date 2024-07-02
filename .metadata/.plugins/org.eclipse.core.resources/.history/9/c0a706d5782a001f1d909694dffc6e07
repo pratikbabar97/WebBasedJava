@@ -1,0 +1,15 @@
+package com.blogs.service;
+
+import java.util.List;
+
+import org.springframework.http.ResponseEntity;
+
+import com.blogs.entities.Products;
+
+public interface ProductService {
+
+	List<Products> getAllProducts();
+	Products addNewProducts(Products product);
+	Products updateProducts(Long productId, Products product);
+	
+}

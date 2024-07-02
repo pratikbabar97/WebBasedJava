@@ -1,0 +1,30 @@
+package com.reserve.entities;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Entity
+
+@Getter
+@Setter
+@Table(name = "reservations")
+@ToString(callSuper = true)
+public class Reservations extends BaseEntity {
+	private String guestName;
+	private LocalDate checkOutDate;
+	private Double totalPrice;
+
+	public Reservations(String guestName, LocalDate checkOutDate, Double totalPrice) {
+		super();
+		this.guestName = guestName;
+		this.checkOutDate = checkOutDate;
+		this.totalPrice = totalPrice;
+	}
+
+}

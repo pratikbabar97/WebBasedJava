@@ -1,0 +1,9 @@
+package com.blogs.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller // this to tell spring controller that following is the spring bean containing
+			// logic
+public class HelloController {
+
+}

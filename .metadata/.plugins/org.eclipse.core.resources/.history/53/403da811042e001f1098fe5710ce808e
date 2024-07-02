@@ -1,0 +1,10 @@
+package com.job.dtos;
+
+import com.job.entities.JobTitle;
+
+public class jobDto {
+	
+	private JobTitle jobTitle;
+	private String Location;
+
+}

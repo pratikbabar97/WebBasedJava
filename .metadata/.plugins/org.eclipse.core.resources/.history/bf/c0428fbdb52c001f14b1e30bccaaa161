@@ -1,0 +1,29 @@
+package com.reserve.exceptions;
+
+public class RunTimeException extends RuntimeException {
+
+	public RunTimeException() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public RunTimeException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+	public RunTimeException(Throwable cause) {
+		super(cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public RunTimeException(String message, Throwable cause) {
+		super(message, cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public RunTimeException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+		super(message, cause, enableSuppression, writableStackTrace);
+		// TODO Auto-generated constructor stub
+	}
+
+}

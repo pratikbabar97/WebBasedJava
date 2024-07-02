@@ -1,0 +1,18 @@
+package com.reserve.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.reserve.entities.Room;
+import com.reserve.repository.RoomRepository;
+
+public class RoomServiceImpl implements RoomService {
+	@Autowired
+	private RoomRepository roomRepository;
+
+	@Override
+	public Room postRoomDetails(Room room) {
+		
+		return roomRepository.save(room);
+	}
+
+}

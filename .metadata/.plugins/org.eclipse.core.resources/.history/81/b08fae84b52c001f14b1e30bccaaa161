@@ -1,0 +1,5 @@
+package com.reserve.dtos;
+
+public class ApiResponse {
+
+}

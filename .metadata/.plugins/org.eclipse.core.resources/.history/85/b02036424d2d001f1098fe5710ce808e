@@ -1,0 +1,9 @@
+package com.reserve.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.reserve.entities.Reservation;
+
+public interface Reservations extends JpaRepository<Reservation, Long> {
+
+}

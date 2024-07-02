@@ -1,0 +1,27 @@
+package com.reserve.entities;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.ToString;
+@Entity
+@Table(name="room")
+public class Room {
+	private Integer roomNumber;
+	private RoomType room;
+	private Double price;
+	private Boolean availability;
+	private LocalDate checkInDate;
+	private LocalDate checkOutDate;
+	public Room( Integer roomNumber, RoomType room, Double price, Boolean availability,
+			LocalDate checkInDate, LocalDate checkOutDate) {
+		super();
+		this.roomNumber = roomNumber;
+		this.room = room;
+		this.price = price;
+		this.availability = availability;
+		this.checkInDate = checkInDate;
+		this.checkOutDate = checkOutDate;
+}

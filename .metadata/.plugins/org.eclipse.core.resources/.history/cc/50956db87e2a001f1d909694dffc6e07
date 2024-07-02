@@ -1,0 +1,53 @@
+package com.blogs.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.blogs.custom_exceptions.ResourceNotFoundException;
+import com.blogs.dtos.ApiResponse;
+import com.blogs.entities.Products;
+import com.blogs.repository.ProductsRepository;
+@Service
+@Transactional
+public class ProductServiceImpl implements ProductService {
+	@Autowired
+	private ProductsRepository productRepository;
+	
+	@Override
+	public List<Products> getAllProducts() {
+		// TODO Auto-generated method stub
+		return productRepository.findAll();
+	}
+
+	@Override
+	public Products addNewProducts(Products product) {
+		// TODO Auto-generated method stub
+		return productRepository.save(product);
+	}
+
+	@Override
+	public ApiResponse updateProducts(Long productId, Products product) {
+//		// TODO Auto-generated method stub
+//		String msg="updation failed";
+//		if(productRepository.existsById(productId)) {
+//			productRepository.save(product);
+//			msg="updation of product successful...";
+//		}else {
+//			throw new ResourceNotFoundException("invalid id");
+//			
+//		}
+//		return new ApiResponse(msg);
+		  Products product1 = productRepository.findById(productId).orElseThrow();(()->new ResourceNotFoundException("id not present..!!"));
+	}
+
+	@Override
+	public ApiResponse deleteProduct(Long productId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}

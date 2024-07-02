@@ -1,0 +1,23 @@
+package com.recipe.service;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.recipe.repository.RecipeRepository;
+import com.recipe.repository.UserRepository;
+
+@Service
+@Transactional
+public class RecipeService {
+	@Autowired
+	private RecipeRepository recipeRepository;
+	
+	@Autowired
+	private UserRepository userRepository;
+	@Autowired
+	private ModelMapper mapper;
+	
+
+}

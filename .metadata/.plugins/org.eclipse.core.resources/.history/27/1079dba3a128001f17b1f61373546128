@@ -1,0 +1,20 @@
+package com.blogs.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class IndexpageController {
+	public IndexpageController() {
+		System.out.println("in ctor"+getClass());
+		
+	}
+	/*
+	 * URL-http://host:port/spring_boot/
+	 */
+      @GetMapping("/")
+      public String showIndexPage() {
+    	  System.out.println("in index page");
+    	  return "/index";
+      }
+}

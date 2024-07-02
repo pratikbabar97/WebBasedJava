@@ -1,0 +1,26 @@
+package com.reserve.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Entity
+@Table(name = "Rooms")
+@Getter
+@Setter
+@ToString
+@NoArgsConstructor
+public class Room {
+	private Long rid;
+	private Integer rNumber;
+	private RoomType rType;
+	private Double price;
+	private String availability;
+	
+	
+
+}

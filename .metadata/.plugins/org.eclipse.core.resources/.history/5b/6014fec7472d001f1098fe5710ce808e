@@ -1,0 +1,15 @@
+package com.reserve.exceptions;
+
+import java.time.LocalDateTime;
+
+public class ResourceNotFoundException extends RuntimeException {
+private String mesg;
+private LocalDateTime timeStamp;
+
+public ResourceNotFoundException(String mesg) {
+	super(mesg);
+	this.mesg = mesg;
+	this.timeStamp=LocalDateTime.now();
+}
+
+}

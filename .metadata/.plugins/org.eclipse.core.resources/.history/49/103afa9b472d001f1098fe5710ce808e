@@ -1,0 +1,11 @@
+package com.reserve.exceptions;
+
+public class ResourceNotFoundException extends RuntimeException {
+private String mesg;
+
+public ResourceNotFoundException(String mesg) {
+	super(mesg);
+	this.mesg = mesg;
+}
+
+}

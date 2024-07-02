@@ -1,0 +1,17 @@
+package com.reserve.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Rooms")
+public class Room {
+	private Long rid;
+	private Integer rNumber;
+	private RoomType rType;
+	private Integer price;
+	private String availability;
+	
+	
+
+}

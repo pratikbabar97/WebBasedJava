@@ -1,0 +1,57 @@
+<%@page import="pojos.User"%>
+<%@page import="java.util.HashMap"%>
+<%@page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<%!//jsp declarartion block
+	HashMap<String, User> users;
+
+	public void jspInit() {
+		System.out.println("in jsp init");
+		//creat empty map and populate
+		users = new HashMap<>();
+		users.put("Rama", new User("Rama", "1234", 25));
+		users.put("Raj", new User("Raj", "3445", 28));
+	}
+	//jsp destroy can be overriden in same declaration or can be overriden in another declaration tag%>
+<body>
+	<% //read name and password
+          //add validation need pure java code
+          String name=request.getParameter("name");
+          String pwd=request.getParameter("pass");
+          //validation
+          User validatdedUser=users.get(name);
+          if(validatdedUser != null){
+        	if(validatdedUser.getPassword().equals(pwd)){
+        		//valid login
+        		
+        	}  
+        	else{
+        		%>
+        		<h5>
+		       Invalid Password, do you want to retry <a
+			   href="login.jsp">Retry</a>
+			   </h5>
+        		<% }
+	
+	 
+    }  else{
+        	  %>
+	<h5>
+		User Name Dose not exists, do you want to register <a
+			href="register.jsp">Register</a>
+
+	</h5>
+	<%  
+	}
+	%>
+</body>
+<%!public void jspDestroy() {
+		System.out.println("in jsp destroy");
+	}%>
+</html>

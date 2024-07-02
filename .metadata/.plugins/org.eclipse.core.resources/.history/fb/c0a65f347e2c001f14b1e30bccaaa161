@@ -1,0 +1,104 @@
+package com.job.entities;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+@Entity
+@Table("job_posting")
+public class JobPosting {
+
+	private Long Id;
+	private JobTitle jobTitle;
+	private String companyName;
+	private String Location;
+	private String description;
+	private String requirements;
+	private Long salary;
+	private LocalDate postingDate;
+
+	public JobPosting(Long id, JobTitle jobTitle, String companyName, String location, String description,
+			String requirements, Long salary, LocalDate postingDate) {
+		super();
+		Id = id;
+		this.jobTitle = jobTitle;
+		this.companyName = companyName;
+		Location = location;
+		this.description = description;
+		this.requirements = requirements;
+		this.salary = salary;
+		this.postingDate = postingDate;
+	}
+
+	@Override
+	public String toString() {
+		return "JobPosting [Id=" + Id + ", jobTitle=" + jobTitle + ", companyName=" + companyName + ", Location="
+				+ Location + ", description=" + description + ", requirements=" + requirements + ", salary=" + salary
+				+ ", postingDate=" + postingDate + "]";
+	}
+
+	public Long getId() {
+		return Id;
+	}
+
+	public void setId(Long id) {
+		Id = id;
+	}
+
+	public JobTitle getJobTitle() {
+		return jobTitle;
+	}
+
+	public void setJobTitle(JobTitle jobTitle) {
+		this.jobTitle = jobTitle;
+	}
+
+	public String getCompanyName() {
+		return companyName;
+	}
+
+	public void setCompanyName(String companyName) {
+		this.companyName = companyName;
+	}
+
+	public String getLocation() {
+		return Location;
+	}
+
+	public void setLocation(String location) {
+		Location = location;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public String getRequirements() {
+		return requirements;
+	}
+
+	public void setRequirements(String requirements) {
+		this.requirements = requirements;
+	}
+
+	public Long getSalary() {
+		return salary;
+	}
+
+	public void setSalary(Long salary) {
+		this.salary = salary;
+	}
+
+	public LocalDate getPostingDate() {
+		return postingDate;
+	}
+
+	public void setPostingDate(LocalDate postingDate) {
+		this.postingDate = postingDate;
+	}
+
+}

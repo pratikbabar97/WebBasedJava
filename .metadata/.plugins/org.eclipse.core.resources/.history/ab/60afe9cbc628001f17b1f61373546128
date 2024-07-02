@@ -1,0 +1,37 @@
+package com.blogs.dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.blogs.entities.Category;
+import org.hibernate.SessionFactory;
+
+
+@Repository//dao layer spring bean
+public class CategoryDaoImpl implements CategoryDao {
+	//depcy - SF
+	@Autowired //byType
+	private EntityManager manager;
+	
+/*javax.persistence.EntityManager-
+ * super interface of org.hibernate.session
+ * spring boot , does't directly support hibernate api
+ * sp using it's abstraction 
+ * SF->EntityManager
+ * ypu can directly auto wire EM in DAO layer
+ * @AutoWired | @PersistenceContext
+ * 
+ */
+	@Override
+	public List<Category> getAllCategories() {
+		String jpql="select c from Category c";
+		return manager.getCurrentSession() 
+				.createQuery(jpql,Category.class)
+				.getResultList();				
+	}
+
+}

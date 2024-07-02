@@ -1,0 +1,9 @@
+package com.reserve.service;
+
+import com.reserve.entities.Room;
+
+public interface ReservationService {
+
+	Reserve createReservation(Room room);
+
+}

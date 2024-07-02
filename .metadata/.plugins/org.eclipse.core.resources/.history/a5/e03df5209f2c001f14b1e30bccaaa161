@@ -1,0 +1,30 @@
+package com.job.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.job.dtos.ApiResponse;
+import com.job.entities.JobPosting;
+import com.job.repository.jobRepository;
+@Service
+@Transactional
+public class jobPostingServiceImpl implements jobPostingService {
+	@Autowired
+    private jobRepository jobRepository;
+	
+	@Override
+	public List<JobPosting> getAllPostings() {
+		
+		return jobRepository.findAll();
+	}
+
+	@Override
+	public JobPosting postingNewjob(JobPosting jobposting) {
+		
+		return null;
+	}
+
+}

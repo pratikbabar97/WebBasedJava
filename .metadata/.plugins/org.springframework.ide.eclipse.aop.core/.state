@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="day13_REST2"/>
+<aop-project name="spring_project_to_manage_hotel_reservation"/>
+<aop-project name="spring_demo_recipe"/>
+<aop-project name="Recipe_Rest"/>
+<aop-project name="spring_project_to_manage_jobs"/>
+<aop-project name="day13_REST_Assignment"/>
+<aop-project name="spring_boot_backend_reservations"/>
+<aop-project name="blogs-api"/>
+</aop-reference-model>

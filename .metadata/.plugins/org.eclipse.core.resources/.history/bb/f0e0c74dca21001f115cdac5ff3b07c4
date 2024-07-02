@@ -1,0 +1,20 @@
+package com.app.dao;
+
+import java.sql.Date;
+import java.sql.SQLException;
+import java.util.List;
+
+import com.app.entities.User;
+
+public interface UserDao {
+	
+	//methos for user to sign in
+User signIn(String email, String password ) throws SQLException;
+
+List<User> getUserDetails(Date begin,Date end) throws SQLException;
+
+String voterRegistrtion(User newVoter) throws SQLException;
+
+String changePassword(String email,String oldPWD,String newPwd) throws SQLException;
+String deleteVoterDetails(int voterId) throws SQLException;
+}

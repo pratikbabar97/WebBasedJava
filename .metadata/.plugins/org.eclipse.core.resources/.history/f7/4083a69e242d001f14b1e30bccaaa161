@@ -1,0 +1,6 @@
+package com.reserve.service;
+
+public class RoomServiceImpl implements RoomService {
+
+
+}

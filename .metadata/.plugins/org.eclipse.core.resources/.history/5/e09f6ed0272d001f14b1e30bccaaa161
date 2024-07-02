@@ -1,0 +1,23 @@
+package com.reserve.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.reserve.entities.Room;
+import com.reserve.repository.RoomRepository;
+@Service
+@Transactional
+public class RoomServiceImpl implements RoomService {
+	
+	@Autowired
+	private RoomRepository roomRepository;
+
+	@Override
+	public Room postRoomDetails(Room room) {
+		
+		return roomRepository.save(room);
+	
+
+}
+}

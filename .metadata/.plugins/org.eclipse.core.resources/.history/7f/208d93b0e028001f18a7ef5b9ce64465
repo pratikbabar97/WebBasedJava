@@ -1,0 +1,12 @@
+package com.blogs.controller;
+
+public class UserLogin {
+	public UserLogin() {
+		System.out.println("in user login CTOR");
+	}
+	
+	public String userLogin() {
+		System.out.println("inside user login method");
+	}
+
+}

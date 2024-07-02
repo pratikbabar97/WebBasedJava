@@ -1,0 +1,9 @@
+package com.app.dao;
+
+import com.app.entities.Users;
+
+public interface UserDao {
+	String registerUser(Users user);
+	String registerUserWithGetCurrentSession(Users user);
+}
+	

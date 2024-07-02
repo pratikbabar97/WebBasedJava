@@ -1,0 +1,20 @@
+package com.reserve.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.reserve.entities.Room;
+import com.reserve.service.ReservationService;
+
+public class ReservationController {
+	
+	private ReservationService reservationService;
+	
+	@PostMapping
+	public ResponseEntity<?>createReservation(@RequestMapping Room room){
+		
+	}
+	
+
+}

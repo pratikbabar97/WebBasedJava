@@ -1,0 +1,46 @@
+package com.reserve.entities;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Entity
+
+@Getter
+@Setter
+@Table(name="reservations")
+@ToString(callSuper = true)
+public class Reservations extends BaseEntity {
+	private Integer roomNumber;
+	private RoomType room;
+	private Double price;
+	private Boolean availability;
+	private LocalDate checkInDate;
+	private LocalDate checkOutDate;
+	public Reservations(Long id, Integer roomNumber, RoomType room, Double price, Boolean availability,
+			LocalDate checkInDate, LocalDate checkOutDate) {
+		super(id);
+		this.roomNumber = roomNumber;
+		this.room = room;
+		this.price = price;
+		this.availability = availability;
+		this.checkInDate = checkInDate;
+		this.checkOutDate = checkOutDate;
+	}
+	
+	
+	
+	
+		
+		// TODO Auto-generated constructor stub
+	
+
+	
+
+}

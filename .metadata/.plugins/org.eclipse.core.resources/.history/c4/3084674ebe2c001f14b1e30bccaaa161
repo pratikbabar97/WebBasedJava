@@ -1,0 +1,9 @@
+package com.reserve.service;
+
+public class ReservationServiceImpl implements ReservationService {
+
+	public ReservationServiceImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

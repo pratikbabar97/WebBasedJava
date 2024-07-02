@@ -1,0 +1,17 @@
+package com.reserve.entities;
+
+import java.time.LocalDate;
+
+public class BaseEntity {
+	
+	private Long id;
+	private LocalDate checkInDate;
+	private LocalDate checkOutDate;
+
+	public BaseEntity() {
+		
+		
+		
+	}
+
+}

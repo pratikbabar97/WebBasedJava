@@ -1,0 +1,35 @@
+package com.job.entities;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.IdClass;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity
+@Table(name = "job_posting")
+public class JobPosting {
+	@javax.persistence.Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long Id;
+	
+	private JobTitle jobTitle;
+	private String companyName;
+	private String Location;
+	private String description;
+	private String requirements;
+	private Long salary;
+	private LocalDate postingDate;
+
+}

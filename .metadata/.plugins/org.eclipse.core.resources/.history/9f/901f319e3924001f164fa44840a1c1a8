@@ -1,0 +1,8 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.developers</groupId>
+  <artifactId>day1_hibernate_maven</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>day1_hibernate_maven</name>
+  <description>Simple Java SE project with Hibernate CRUD</description>
+</project>

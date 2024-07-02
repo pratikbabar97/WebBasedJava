@@ -1,0 +1,92 @@
+
+May 31, 2024 21:39:46.435 NEW SESSION
+May 31, 2024 21:39:46.436 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 31, 2024 22:55:17.47 [5416:9656:0531/225517.044:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 31, 2024 23:57:43.12 [5416:9656:0531/235742.922:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 31, 2024 23:57:43.521 [5416:9656:0531/235743.520:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 01, 2024 24:10:43.484 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 01, 2024 24:21:30.111 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 01, 2024 24:24:52.519 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Jun 03, 2024 01:16:58.314 NEW SESSION
+Jun 03, 2024 01:16:58.314 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 03, 2024 01:18:24.420 [21244:12612:0603/011824.418:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 03, 2024 04:18:30.744 [21244:12612:0603/041830.743:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 03, 2024 04:18:31.607 [21244:12612:0603/041831.606:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Jun 03, 2024 20:13:15.685 [21244:12612:0603/201315.684:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 03, 2024 20:13:18.808 [21244:12612:0603/201318.807:ERROR:checkin_request.cc(243)] Check-in request got net error: -21
+Jun 03, 2024 20:13:18.812 [21244:24844:0603/201318.811:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+Jun 03, 2024 20:13:44.950 [21244:12612:0603/201344.949:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 03, 2024 20:24:35.199 [21244:12612:0603/202435.197:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 03, 2024 21:41:13.258 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 03, 2024 22:06:50.907 [10628:17452:0603/220650.905:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 04, 2024 24:42:56.823 [10628:21728:0604/004256.822:ERROR:device_event_log_impl.cc(195)] [00:42:56.820] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Jun 04, 2024 23:17:07.213 NEW SESSION
+Jun 04, 2024 23:17:07.213 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 05, 2024 24:34:36.350 [28704:24652:0605/003436.345:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 05, 2024 24:53:00.236 [28704:24652:0605/005300.234:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 05, 2024 03:53:03.732 [28704:24652:0605/035303.731:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 05, 2024 03:53:04.460 [28704:24652:0605/035304.458:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Jun 05, 2024 07:53:07.541 [28704:24652:0605/075307.540:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 05, 2024 07:53:07.545 [28704:25148:0605/075307.544:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Jun 05, 2024 07:53:08.426 [28704:24652:0605/075308.425:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 05, 2024 07:53:08.428 [28704:25148:0605/075308.428:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Jun 05, 2024 07:53:13.259 [28704:24652:0605/075313.258:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 05, 2024 10:13:23.212 [28704:24652:0605/101323.207:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 05, 2024 10:56:44.534 [28704:24652:0605/105644.531:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 05, 2024 11:07:03.294 [28704:24652:0605/110703.291:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 05, 2024 11:08:09.896 [28704:19492:0605/110809.895:ERROR:device_event_log_impl.cc(195)] [11:08:09.893] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Jun 05, 2024 14:12:23.254 NEW SESSION
+Jun 05, 2024 14:12:23.254 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 05, 2024 14:24:15.934 [29852:15116:0605/142415.930:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 05, 2024 15:08:26.959 [29852:15116:0605/150826.956:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 05, 2024 15:09:19.637 [29852:8056:0605/150919.636:ERROR:device_event_log_impl.cc(195)] [15:09:19.636] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jun 05, 2024 18:36:20.318 [29852:8056:0605/183620.313:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint (unset) for first_image_paint 1.931 s
+Jun 05, 2024 18:36:20.487 [29852:8056:0605/183620.486:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 1.946 s for first_image_paint 1.931 s
+Jun 05, 2024 18:36:20.623 [29852:8056:0605/183620.622:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 1.946 s for first_image_paint 1.931 s
+Jun 05, 2024 18:36:20.761 [29852:8056:0605/183620.759:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 1.946 s for first_image_paint 1.931 s
+Jun 05, 2024 18:36:20.885 [29852:8056:0605/183620.884:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 1.946 s for first_image_paint 1.931 s
+Jun 05, 2024 18:36:21.23 [29852:8056:0605/183621.021:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 1.946 s for first_image_paint 1.931 s
+Jun 05, 2024 18:36:21.269 [29852:8056:0605/183621.268:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 1.946 s for first_image_paint 1.931 s
+Jun 05, 2024 18:36:21.441 [29852:8056:0605/183621.439:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 1.946 s for first_image_paint 1.931 s
+Jun 05, 2024 18:36:22.86 [29852:8056:0605/183622.085:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 1.946 s for first_image_paint 1.931 s
+Jun 05, 2024 18:36:23.215 [29852:8056:0605/183623.213:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 1.946 s for first_image_paint 1.931 s
+Jun 05, 2024 19:20:23.263 [29852:8056:0605/192023.262:ERROR:device_event_log_impl.cc(195)] [19:20:23.262] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jun 05, 2024 20:19:41.991 [29852:15116:0605/201941.989:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 05, 2024 20:51:19.877 [29852:15116:0605/205119.876:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 05, 2024 20:51:24.974 [29852:8056:0605/205124.973:ERROR:device_event_log_impl.cc(195)] [20:51:24.973] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jun 05, 2024 21:01:23.939 [29852:15116:0605/210123.933:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 05, 2024 21:33:52.963 [29852:15116:0605/213352.963:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 05, 2024 23:16:10.829 [29852:15116:0605/231610.823:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 06, 2024 24:21:54.566 [29852:8056:0606/002154.557:ERROR:device_event_log_impl.cc(195)] [00:21:54.557] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jun 06, 2024 01:40:43.876 [29852:8056:0606/014043.874:ERROR:device_event_log_impl.cc(195)] [01:40:43.874] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jun 06, 2024 09:50:31.323 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 06, 2024 10:24:02.205 [20648:24344:0606/102402.202:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 06, 2024 10:27:30.246 [20648:24344:0606/102730.245:ERROR:connection_handler_impl.cc(472)] Timed out waiting for GCM Protocol buffer.
+Jun 06, 2024 10:27:30.255 [20648:24344:0606/102730.245:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -7
+Jun 06, 2024 10:27:35.124 [20648:23148:0606/102735.122:ERROR:device_event_log_impl.cc(195)] [10:27:35.122] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jun 06, 2024 10:56:19.141 [20648:23148:0606/105619.141:ERROR:device_event_log_impl.cc(195)] [10:56:19.141] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jun 06, 2024 11:24:28.10 [20648:24344:0606/112428.009:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 06, 2024 12:35:03.596 [20648:24344:0606/123503.595:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 06, 2024 12:35:03.611 [20648:24344:0606/123503.610:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 06, 2024 12:35:15.330 [20648:23148:0606/123515.330:ERROR:device_event_log_impl.cc(195)] [12:35:15.329] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jun 06, 2024 13:50:00.129 [20648:24344:0606/135000.126:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 06, 2024 15:38:42.530 [20648:24344:0606/153842.529:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 06, 2024 15:38:45.221 [20648:24344:0606/153845.220:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 06, 2024 15:42:51.657 [20648:23148:0606/154251.655:ERROR:device_event_log_impl.cc(195)] [15:42:51.656] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jun 06, 2024 16:54:12.347 [20648:24344:0606/165412.345:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 06, 2024 17:18:30.227 [20648:24344:0606/171830.226:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 06, 2024 17:29:36.171 [20648:24344:0606/172936.169:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 06, 2024 20:29:39.320 [20648:24344:0606/202939.317:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 06, 2024 20:29:40.90 [20648:24344:0606/202940.089:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Jun 06, 2024 22:00:57.825 [20648:24344:0606/220057.822:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 06, 2024 22:36:19.519 [20648:23148:0606/223619.516:ERROR:device_event_log_impl.cc(195)] [22:36:19.516] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jun 06, 2024 22:36:19.592 [20648:23148:0606/223619.591:ERROR:device_event_log_impl.cc(195)] [22:36:19.590] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Jun 06, 2024 22:57:16.111 [20648:24344:0606/225716.109:ERROR:mcs_client.cc(749)] Received close command, resetting connection.
+Jun 07, 2024 24:55:19.311 [20648:23148:0607/005519.307:ERROR:device_event_log_impl.cc(195)] [00:55:19.307] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jun 07, 2024 01:24:53.487 [20648:24344:0607/012453.485:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 07, 2024 01:44:08.308 [20648:23148:0607/014408.306:ERROR:device_event_log_impl.cc(195)] [01:44:08.306] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jun 07, 2024 01:59:57.823 [20648:24344:0607/015957.820:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Jun 07, 2024 02:14:04.603 [20648:24344:0607/021404.600:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2

@@ -1,0 +1,10 @@
+package com.app.entities;
+
+public class Candidates {
+
+       private int candidateId;
+       private String name;
+       private String party;
+       private int votes;
+       
+}

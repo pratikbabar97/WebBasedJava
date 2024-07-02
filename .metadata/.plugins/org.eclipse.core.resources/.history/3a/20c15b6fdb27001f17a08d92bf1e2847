@@ -1,0 +1,13 @@
+package com.blogs.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller // this is to tell spring controller that following is the spring bean containing
+			//  request hanling -mandatory logic
+//singleton and eager  
+public class HelloController {
+	public HelloController() {
+		System.out.println("in ctor"+getClass());
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.recipe.dto;
+
+import com.recipe.entities.CuisineType;
+import com.recipe.entities.DifficultyLevel;
+
+public class RecipeDto {
+	
+	
+	private String title;
+	
+	private String description;
+	
+	private String ingredients;
+	
+	private String instructions;
+	
+	private DifficultyLevel difficultyLevel;
+	
+	
+	private CuisineType cuisineType;
+	
+	private UserDto user;
+	
+	
+
+}

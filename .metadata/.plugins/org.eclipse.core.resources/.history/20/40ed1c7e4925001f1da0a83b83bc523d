@@ -1,0 +1,6 @@
+package com.app.beans;
+
+public class UserBean {
+   // java bean properties
+	 
+}

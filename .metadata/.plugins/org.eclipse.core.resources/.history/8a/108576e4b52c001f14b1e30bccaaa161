@@ -1,0 +1,14 @@
+package com.reserve.exceptions;
+
+public class RunTimeException extends RuntimeException {
+
+	
+
+	public RunTimeException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+
+}

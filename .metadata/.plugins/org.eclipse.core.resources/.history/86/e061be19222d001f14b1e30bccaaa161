@@ -1,0 +1,9 @@
+package com.reserve.controller;
+
+public class RoomController {
+
+	public RoomController() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

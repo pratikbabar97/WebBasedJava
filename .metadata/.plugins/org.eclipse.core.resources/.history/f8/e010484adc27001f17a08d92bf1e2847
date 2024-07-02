@@ -1,0 +1,20 @@
+package com.blogs.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller // this is to tell spring controller that following is the spring bean containing
+			//  request hanling -mandatory logic
+//singleton and eager  
+public class HelloController {
+	public HelloController() {
+		System.out.println("in ctor"+getClass());
+	}
+//add request handling method to test MVC flow
+	@RequestMapping("/hello")
+	public String sayHello() {
+		System.out.println("in say hello");
+		return "/welcome";
+	}
+	
+}

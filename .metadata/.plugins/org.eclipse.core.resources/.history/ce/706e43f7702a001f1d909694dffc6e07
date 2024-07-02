@@ -1,0 +1,16 @@
+package com.blogs.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.blogs.service.ProductService;
+
+@RestController
+@RequestMapping("/products")
+public class ProductController {
+	private ProductService productService;
+	
+	public ProductController() {
+		System.out.println("in ProductController ctor " + getClass());
+	}
+}
